@@ -1,0 +1,219 @@
+body{
+    background-image: url(../pics/bitcoin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navmain{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.09);
+    opacity: 0.9;
+    margin: 25px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    border-radius: 10px;
+}
+.navmain > div {
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    text-decoration: none;
+    line-height: 40px;
+  }  
+  a:link{
+      color:rgb(132, 198, 241);
+      text-decoration: none;
+  }
+  a:hover{
+      color: orange;
+  }
+a:visited {
+    color: powderblue;
+}
+
+.footer {
+    border-radius: 15px;
+    margin-top: 600px;
+    font-family: 'Helvetica Neue', monospace;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(145, 145, 248);
+}
+.vse {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 93px;
+    left: 263px;
+    width: 7px;
+    height: 7px;
+}
+
+.p2 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 193px;
+    left: 572px;
+    width: 7px;
+    height: 7px;
+}
+
+.p3 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 205px;
+    left: 807px;
+    width: 7px;
+    height: 7px;
+}
+
+.p4 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 497px;
+    left: 463px;
+    width: 7px;
+    height: 7px;
+}
+
+.p5 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 485px;
+    left: 1004px;
+    width: 7px;
+    height: 7px;
+}
+
+.p6 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 291px;
+    left: 1338px;
+    width: 7px;
+    height: 7px;
+}
+
+.p7 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 190px;
+    left: 1038px;
+    width: 7px;
+    height: 7px;
+}
+
+.p8 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 650px;
+    left: 643px;
+    width: 7px;
+    height: 7px;
+}
+
+.p9 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 31px;
+    left: 874px;
+    width: 7px;
+    height: 7px;
+}
+
+.p10 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 510px;
+    left: 228px;
+    width: 7px;
+    height: 7px;
+}
+
+.p11 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 641px;
+    left: 1261px;
+    width: 7px;
+    height: 7px;
+}
+
+.p12 {
+    position: absolute;
+    background-color: rgba(0,0,0,0.001);
+    top: 313px;
+    left: 36px;
+    width: 7px;
+    height: 7px;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 -10px 20px #fcf90c;
+    }
+
+    40% {
+        box-shadow: 0 0 50px 20px #fcf90c;
+    }
+
+    60% {
+        box-shadow: 0 0 50px 20px #fcf90c;
+    }
+
+    100% {
+        box-shadow: 0 0 -10px 20px #fcf90c;
+    }
+}
+
+.vse {
+    animation: glowing 5000ms infinite;
+}
+
+.p2 {
+    animation: glowing 4300ms infinite;
+}
+
+.p3 {
+    animation: glowing 4500ms infinite;
+}
+
+.p4 {
+    animation: glowing 4590ms infinite;
+}
+
+.p5 {
+    animation: glowing 5310ms infinite;
+}
+
+.p6 {
+    animation: glowing 3930ms infinite;
+}
+
+.p7 {
+    animation: glowing 3730ms infinite;
+}
+
+.p8 {
+    animation: glowing 6150ms infinite;
+}
+
+.p9 {
+    animation: glowing 3850ms infinite;
+}
+
+.p10 {
+    animation: glowing 5750ms infinite;
+}
+
+.p11 {
+    animation: glowing 3750ms infinite;
+}
+
+.p12 {
+    animation: glowing 4250ms infinite;
+}  

@@ -1,0 +1,136 @@
+body{
+    background: url(../pics/bitcoin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navmain{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.09);
+    opacity: 0.9;
+    margin: 25px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    border-radius: 10px;
+}
+.navmain > div {
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+}  
+  a:link{
+      color:rgb(132, 198, 241);
+      text-decoration: none;
+  }
+  a:hover{
+      color: rgb(229, 231, 98);
+  }
+  a:visited{
+      color: powderblue;
+  }
+
+.flexy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;   
+}
+
+.flexy > div {
+  background-color:rgb(102, 102, 255, 0.1);
+  width: 408px;
+  height: 660px;
+  margin: 30px;
+  box-shadow: 0px 0px 10px #b3b3ff;
+  border-radius: 8px;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Helvetica Neue', monospace;
+  color: #b38f00;
+  text-shadow: 1px 1px #000000;
+ 
+  
+}
+.flexy .faqsrednja{
+    background-image: url(../pics/faqsrednja.jpg);
+    background-position: center;
+    box-shadow: 0px 0px 25px rgb(102,102,255);
+}
+.over:hover {
+    background-color: rgba(29,52,182,0.5);
+    box-shadow: 0px 0px 35px whitesmoke;
+}
+
+.container-L {
+    background-image: url(../pics/walletphoto.jpg);
+    background-position: center;
+    box-shadow: 0px 0px 40px 20px rgb(235, 186, 53);
+    opacity: 0.5;
+    position: absolute;
+    width: 408px;
+    height: 660px;
+    top: 250px;
+    left: 250px;
+    border-radius: 15px;
+    border: white 10px;
+    text-align: center;
+    font-family: 'Helvetica Neue', monospace;
+    font-size: 30px;
+    color: rgba(0,0,0,0.01);
+}
+
+
+.container-R {
+    background-image: url(../pics/walletphotodesni.jpg);
+    background-position: center;
+    box-shadow: 0px 0px 40px 20px rgb(104, 213, 247);
+    opacity: 0.5;
+    position: absolute;
+    width: 408px;
+    height: 660px;
+    top: 250px;
+    right: 250px;
+    border-radius: 15px;
+    border: white 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Helvetica Neue', monospace;
+    color: rgba(0,0,0,0.01);
+}
+
+  @keyframes glowing {
+    0% { box-shadow: 0 0 -10px #c4a300; }
+    40% { box-shadow: 0 0 20px #c4a300; }
+    60% { box-shadow: 0 0 20px #c4a300; }
+    100% { box-shadow: 0 0 -10px #c4a300; }
+  }
+  .container-L{
+      animation: glowing 7000ms infinite;
+  }
+
+  @keyframes glowingblue {
+    0% { box-shadow: 0 0 -10px #68d5f7; }
+    40% { box-shadow: 0 0 20px #68d5f7; }
+    60% { box-shadow: 0 0 20px #68d5f7; }
+    100% { box-shadow: 0 0 -10px #68d5f7; }
+  }
+  
+  .container-R{
+      animation: glowingblue 7000ms infinite;
+  }
+.container-R:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-shadow: 1px 1px 1px white;
+}
+.container-L:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-shadow:1px 1px 1px white;
+    
+}
